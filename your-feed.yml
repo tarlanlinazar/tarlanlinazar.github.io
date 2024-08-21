@@ -1,26 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2024-08-21">
-    <shop>
-        <name>Example Shop</name>
-        <company>Example Company Ltd.</company>
-        <url>http://www.example.com/</url>
-        <currencies>
-            <currency id="USD" rate="1"/>
-        </currencies>
-        <categories>
-            <category id="1">Electronics</category>
-        </categories>
-        <offers>
-            <offer id="12345" available="true">
-                <name>Smartphone XYZ</name>
-                <price>299.99</price>
-                <currencyId>USD</currencyId>
-                <categoryId>1</categoryId>
-                <url>http://www.example.com/product/12345</url>
-                <picture>http://www.example.com/product/12345/image.jpg</picture>
-                <vendor>Example Vendor</vendor>
-                <description>This is a sample smartphone XYZ.</description>
-            </offer>
-        </offers>
-    </shop>
-</yml_catalog>
+<?xml version="1.0"?>
+<data>
+    <cars>
+        <car>
+            <mark_id>Hyundai</mark_id>
+            <folder_id>Sonata</folder_id>
+            <modification_id>2.0 AT (150 л.с.)</modification_id>
+            <url>http://www.auto.ru/1</url>
+            <images>http://picture.auto.ru/1.jpg</images>
+            <body_type>Седан</body_type>
+            <color>серый</color>
+            <availability>в наличии</availability>
+            <custom>растаможен</custom>
+            <year>2022</year>
+            <price>2575000</price>
+            <currency>RUR</currency>
+            <vin>XWBCA41ZXDK259205</vin>
+            <owners_number>Не было владельцев</owners_number>
+            <max_discount>90000</max_discount>
+         </car>
+     </cars>
+</data>
