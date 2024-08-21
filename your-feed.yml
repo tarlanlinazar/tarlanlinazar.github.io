@@ -4,18 +4,18 @@
         <car>
             <mark_id>Hyundai</mark_id>
             <folder_id>Sonata</folder_id>
-            <modification_id>2.0 AT (150 л.с.)</modification_id>
+            <modification_id>2.0 AT (150 hp)</modification_id>
             <url>http://www.auto.ru/1</url>
             <images>http://picture.auto.ru/1.jpg</images>
-            <body_type>Седан</body_type>
-            <color>серый</color>
-            <availability>в наличии</availability>
-            <custom>растаможен</custom>
+            <body_type>Sedan</body_type>
+            <color>gray</color>
+            <availability>in stock</availability>
+            <custom>cleared</custom>
             <year>2022</year>
             <price>2575000</price>
             <currency>RUR</currency>
             <vin>XWBCA41ZXDK259205</vin>
-            <owners_number>Не было владельцев</owners_number>
+            <owners_number>No previous owners</owners_number>
             <max_discount>90000</max_discount>
          </car>
      </cars>
