@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<yml_catalog date="2024-08-21">
+    <shop>
+        <name>Example Shop</name>
+        <company>Example Company Ltd.</company>
+        <url>http://www.example.com/</url>
+        <currencies>
+            <currency id="USD" rate="1"/>
+        </currencies>
+        <categories>
+            <category id="1">Electronics</category>
+        </categories>
+        <offers>
+            <offer id="12345" available="true">
+                <name>Smartphone XYZ</name>
+                <price>299.99</price>
+                <currencyId>USD</currencyId>
+                <categoryId>1</categoryId>
+                <url>http://www.example.com/product/12345</url>
+                <picture>http://www.example.com/product/12345/image.jpg</picture>
+                <vendor>Example Vendor</vendor>
+                <description>This is a sample smartphone XYZ.</description>
+            </offer>
+        </offers>
+    </shop>
+</yml_catalog>
