@@ -1,3 +1,4 @@
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-T7B8096X6Y"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
