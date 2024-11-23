@@ -10,13 +10,6 @@ m10 provides an e-commerce API that enables merchants to create payments and ref
 
 The provided document and Swagger link offer a comprehensive overview of the API, detailing its various endpoints. The link to [Swagger](https://develop.m10payments.com/online-acquiring/swagger-ui/index.html)
 
-{% hint style="warning" %}
-**Important note**
-
-\
-Authorization tokens will be provided manually by m10
-{% endhint %}
-
 ***
 
 ## Authorization
@@ -79,15 +72,6 @@ Error responses contain more detail about the error in the `x-error-code (header
 ### **POST** `/api/v1/orders/actions/create-payment`
 
 Creates a payment operation on m10. Returns on response a dynamic link paymentURL to redirect the user and `transactionId` of the completed operation on m10.
-
-{% hint style="warning" %}
-**Important note**
-
-\
-Upon completion of the operation (payment/refund), a callback will be sent containing the operation details and status. An example of the callback is provided **in the "Callback structure" section**.
-
-If the callback is not received, use the method **Get order or transaction details** to get the operation details.
-{% endhint %}
 
 #### Request parameters
 
