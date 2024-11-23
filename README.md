@@ -10,7 +10,12 @@ m10 provides an e-commerce API that enables merchants to create payments and ref
 
 The provided document and Swagger link offer a comprehensive overview of the API, detailing its various endpoints. The link to [Swagger](https://develop.m10payments.com/online-acquiring/swagger-ui/index.html)
 
-{% include ".gitbook/includes/warning.md" %}
+{% hint style="warning" %}
+**Important note**
+
+\
+Authorization tokens will be provided manually by m10
+{% endhint %}
 
 ***
 
